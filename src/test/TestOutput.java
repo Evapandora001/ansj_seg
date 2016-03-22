@@ -33,7 +33,7 @@ public class TestOutput {
 		List<Term> parse = BaseAnalysis.parse("哈哈");
 	    System.out.println(parse);
 	    
-	    List<Term> parse1 = ToAnalysis.parse("哈哈");
+	    List<Term> parse1 = ToAnalysis.parse("外卖");
 	    System.out.println(parse1);
 	    
 	    List<Term> parse2 = NlpAnalysis.parse("哈哈");
